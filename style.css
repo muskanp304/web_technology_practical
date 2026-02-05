@@ -53,7 +53,7 @@ img{
  }
 
 
-p{
+.content{
     width:80%;
     margin:15px auto;
     text-align:justify;
@@ -71,8 +71,9 @@ iframe{
 
 footer{
     background:#2c3e50;
-    color:white;
-    text-align:center;
+    color: aliceblue;
     padding:10px;
     margin-top:30px;
+    display: flex;
+    justify-content: space-between;
 }
