@@ -1,4 +1,78 @@
-header {text-align: center;
-         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-nav { text-align: right;}
-img { height:100px ; width:100px}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    line-height:1.6;
+}
+header{
+    background:#0d3257;
+    padding:15px;
+    text-align: centre;
+}
+.header {
+    display: flex;
+    gap: 30px;
+}
+.header h2 {
+    text-align:center;
+    color:white;
+    text-decoration:none;
+}
+  .header h2 a { text-decoration:none;
+color: white;}
+nav {
+  display: flex;
+  justify-content: end;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+    font-weight:bold;
+    text-align:right;
+}
+
+nav a:hover{
+    color:#f39c12;
+}
+
+img{
+    margin:10px;
+    height: 100px;
+    width :100px;
+    align-items: left;
+}
+
+ .hero{
+    display: flex;
+ }
+
+
+p{
+    width:80%;
+    margin:15px auto;
+    text-align:justify;
+    background:white;
+    padding:15px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+iframe{
+    display:block;
+    margin:30px auto;
+    border-radius:10px;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:30px;
+}
