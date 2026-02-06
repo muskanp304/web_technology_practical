@@ -1,79 +1,89 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
-body{
-    background:#f4f6f9;
-    line-height:1.6;
+body .home {
+    background: #f4f6f9;
+    line-height: 1.6;
 }
-header{
-    background:#0d3257;
-    padding:15px;
+
+header {
+    background: #0d3257;
+    padding: 20px;
     text-align: centre;
 }
+
 .header {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
+
 .header h2 {
-    text-align:center;
-    color:white;
-    text-decoration:none;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
 }
-  .header h2 a { text-decoration:none;
-color: white;}
+
+.header h2 a {
+    text-decoration: none;
+    color: white;
+}
+
 nav {
-  display: flex;
-  justify-content: end;
-}
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-right:20px;
-    font-weight:bold;
-    text-align:right;
+    display: flex;
+    justify-content: end;
 }
 
-nav a:hover{
-    color:#f39c12;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    text-align: right;
 }
 
-img{
-    margin:10px;
+nav a:hover {
+    color: #f39c12;
+}
+
+img {
+    margin: 10px;
     height: 100px;
-    width :100px;
+    width: 100px;
     align-items: left;
 }
 
- .hero{
+.hero {
     display: flex;
- }
 
-
-.content{
-    width:80%;
-    margin:15px auto;
-    text-align:justify;
-    background:white;
-    padding:15px;
-    border-radius:8px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-iframe{
-    display:block;
-    margin:30px auto;
-    border-radius:10px;
+
+.content {
+    width: 80%;
+    margin: 15px auto;
+    text-align: justify;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer{
-    background:#2c3e50;
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: #2c3e50;
     color: aliceblue;
-    padding:10px;
-    margin-top:30px;
+    padding: 10px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
