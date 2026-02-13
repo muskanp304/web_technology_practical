@@ -73,11 +73,48 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#a1 {
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-property: color;
+    transition: ease 5s;
+}
+
+#a1:hover {
+    background-color: #608fbe;
+}
+
+#a2 {
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-property: color;
+    transition: ease-in 5s;
+}
+
+#a2:hover {
+    background-color: #608fbe;
+}
+
+#a3 {
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-property: color;
+    transition: linear 5s;
+  
+}
+
+#a3:hover {
+    background-color: #608fbe;
+}
+
 iframe {
+    transition-property: initial;
+    transition: linear;
     display: block;
     margin: 30px auto;
     border-radius: 10px;
 }
+
 
 footer {
     background: #2c3e50;
