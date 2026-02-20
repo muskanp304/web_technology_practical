@@ -76,13 +76,13 @@ img {
 #a1 {
     transition-duration: 5s;
     transition-delay: 0s;
-    transition-property: color;
+
     transition: ease 5s;
 }
 
-#a1:hover {
+/* #a1:hover {
     background-color: #608fbe;
-}
+} */
 
 #a2 {
     transition-duration: 5s;
@@ -100,7 +100,7 @@ img {
     transition-delay: 0s;
     transition-property: color;
     transition: linear 5s;
-  
+
 }
 
 #a3:hover {
